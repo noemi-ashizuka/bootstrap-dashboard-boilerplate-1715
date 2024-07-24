@@ -1,0 +1,48 @@
+FONTAWESOME CDN
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+
+SIDEBAR
+
+<div id="sidebar" class="d-flex flex-column flex-shrink-0 p-3 bg-light col-3" style="width: 280px;">
+  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+    <img class="mx-2" src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" width="40" height="40" />
+    <span class="fs-4">Welcome!👋</span>
+  </a>
+  <hr>
+  <ul class="nav nav-pills flex-column mb-auto">
+    <li class="nav-item">
+      <a href="#" class="nav-link active" aria-current="page"> 
+        Overview
+      </a>
+    </li>
+    <li>
+      <a href="#" class="nav-link link-dark">
+        My Flats
+      </a>
+    </li>
+    <li>
+      <a href="#" class="nav-link link-dark">
+        My Bookings
+      </a>
+    </li>
+  </ul>
+  <hr>
+  <div class="dropdown">
+    <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle"
+      data-bs-toggle="dropdown" aria-expanded="false">
+      <img src="https://avatars.githubusercontent.com/u/106742506?v=4" alt="" width="32" height="32" class="rounded-circle me-2">
+      <strong>Igor</strong>
+    </a>
+    <ul class="dropdown-menu text-small shadow">
+      <li><a class="dropdown-item" href="#">New project...</a></li>
+      <li><a class="dropdown-item" href="#">Settings</a></li>
+      <li><a class="dropdown-item" href="#">Profile</a></li>
+      <li>
+        <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item" href="#">Sign out</a></li>
+    </ul>
+  </div>
+</div>
+
